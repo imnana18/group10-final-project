@@ -5,43 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fetal Monitoring</title>
     <link rel="stylesheet" href="mystyle.css">
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script type="text/javascript" src="../App/hospital.js"></script>
+    
 </head>
 <body>
-
-    <div class="container">
-        <div class="row">
-          <div class="col-md-12 jumbotron text-center">
-            <h1 align = "center">Fetal Monitoring Data</h1>
-          </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12 jumbotron text-center">
+            <h1 align="center">Fetal Monitoring Data</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <div align="center" class="container">
+                <h3 align="center">Enter Baby ID:</h3>
+                <!-- Search bar for baby ID -->
+                <input type="text" id="searchBabyID" placeholder="Enter Baby ID...">
+                <button onclick="searchBaby()">Search</button>
+            </div>
         </div>
         <div class="row">
-          <div class="col-md-2">
-            <div align = "center", class="container">
-              <h3 align = "center"> Baby ID:</h3>
-              <select id="sel-dataset" onchange="optionChanged(this.value)"></select>
-            </div>
+            <div class="col-md-2">
             <div class="panel panel-primary">
-              <div class="panel-heading">
-                <h3 class="panel-title">Baby Info</h3>
-              </div>
-              <div id="sample-metadata" class="panel-body"></div>
+                <div class="panel-heading">
+                    <h2 class="panel-title"> CTG Info </h2>
+                </div>
+                <div id="sample-metadata" class="panel-body"></div>
             </div>
-          </div>
-          <div class="col-md-5">
+        </div>
+        <div class="col-md-5">
             <div id="bar"></div>
-          </div>
-          <div class="col-md-5">
+        </div>
+        <div class="col-md-5">
             <div id="gauge"></div>
-          </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+    </div>
+    <div class="row">
+        <div class="col-md-12">
             <div id="bubble"></div>
-          </div>
         </div>
-      </div>
+    </div>
+</div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script type="text/javascript" src="hospital.js"></script>
 </body>
 </html>
 
