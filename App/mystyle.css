@@ -42,3 +42,12 @@ h1{
     font-size: 14px; /* Adjust the font size as needed */
     line-height: 1; /* Set line height to 1 to remove spacing between lines */
 }
+
+#baby-container {
+    text-align: center;
+}
+
+#baby-image {
+    width: 600px; /* Set the width of the image */
+    height: auto; /* Automatically adjust the height */
+}

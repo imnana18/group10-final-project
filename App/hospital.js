@@ -60,6 +60,27 @@ function displayBabyInfo(babyID) {
     +`\n<h4>uterine_contractions : ${searchedBaby['uterine_contractions']} </h4>`
 }
 
+
+// Function to update the baby image based on initial data or default state
+function updateBabyImageInitial() {
+  const babyImage = document.getElementById("baby-image");
+  babyImage.src = "baby-image.png"; // Set default image
+  babyImage.style.filter = "grayscale(100%)"; // Set default color (grayscale)
+}
+
+// Function to update the baby image based on model output
+function updateBabyImage(prediction) {
+  const babyImage = document.getElementById("baby-image");
+  if (prediction === "green") {
+      babyImage.style.filter = "hue-rotate(120deg)"; // Turn green
+  } else if (prediction === "yellow") {
+      babyImage.style.filter = "hue-rotate(60deg)"; // Turn yellow
+  } else if (prediction === "red") {
+      babyImage.style.filter = "hue-rotate(0deg)"; // Keep original color (red)
+  }
+}
+
+
 // Init function
 async function init(){
 
