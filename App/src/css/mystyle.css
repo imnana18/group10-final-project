@@ -1,0 +1,99 @@
+h1{
+    color: black;
+}
+
+
+
+.panel-primary * {
+    width: 60vw; /* Set the maximum width for the panel */
+
+
+    border-radius: 5px;
+
+    display:  flex;
+    flex-direction: column;
+    
+    font-family: "Gill Sans", sans-serif;
+   
+
+}
+
+.panel-heading{
+    display: flex;
+    
+    color: #2a2a2a;
+    
+    background-color: rgb(255, 255, 255);
+
+    margin-left: 20vw;
+    margin-top: 10px; /* Adjust the top margin as needed */
+    margin-bottom: 10px; /* Adjust the bottom margin as needed */
+
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+    
+    font-size: 1vw; /* Adjust the font size as needed */
+ 
+    
+}
+
+
+
+.panel-body {
+    text-align: center; /* Center-align the content */
+    display: flex;
+    justify-content: center;
+    padding: 2vw 2vw;
+    width: 55.8vw;
+
+}
+
+path{
+    fill:red
+}
+
+.panel-title {
+    display: flex;
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* Horizontal alignment */
+    text-align: center; /* Text alignment */
+    margin-right: 22vw;
+}
+
+
+#sample-metadata {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 20vw;
+    
+    border: 2px solid rgb(3, 3, 3);
+    gap: 6px;
+    
+}
+
+#sample-metadata *{
+    width: 20vw;
+    text-align: left;
+
+    font-size: larger;
+
+    
+    
+}
+
+
+
+
+
+#baby-container {
+    text-align: center;
+}
+
+#baby-image {
+    width: 600px; /* Set the width of the image */
+    height: auto; /* Automatically adjust the height */
+}
