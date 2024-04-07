@@ -1,0 +1,11 @@
+{
+  "format": "tensorflowjs",
+  "modelTopology": {
+    "class_name": "CustomRandomForestLayer",
+    "config": {
+      "n_estimators": 500,
+      "random_state": 48
+    }
+  },
+  "weightsManifest": []
+}
