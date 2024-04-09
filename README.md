@@ -72,9 +72,13 @@ Based on this exceptional performance, we recommend utilizing the Gradient Boost
 # Data Visuals
 
 Fetal_Health_status_count
+
 Model Analysis
+
 Analysis Report
+
 Top 10 features
+
 Histograms of 5 features
 
    
