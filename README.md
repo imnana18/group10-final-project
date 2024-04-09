@@ -71,14 +71,12 @@ Based on this exceptional performance, we recommend utilizing the Gradient Boost
 
 # Data Visuals
 
-1. **Bar Chart of Top 10 Important Features using Gradient Boosting (GB):**
-   - This visualization displays the top 10 important features identified by the Gradient Boosting model. These features are crucial for predicting fetal health classification and provide insights into the underlying patterns in the data.
+Fetal_Health_status_count
+Model Analysis
+Analysis Report
+Top 10 features
+Histograms of 5 features
 
-2. **Scatterplot Showing Correlation between Prolonged Deceleration and Fetal Status:**
-   - The scatterplot illustrates the correlation between prolonged deceleration and fetal health status. By examining this relationship, we can gain a better understanding of how prolonged decelerations impact fetal well-being.
-
-3. **Histograms of Top 10 Features by Health Status:**
-   - These histograms depict the distribution of the top 10 features based on fetal health status. By visualizing the distribution of these features across different health statuses, we can identify patterns and potential indicators of fetal health.
    
 ## Requirements
 
