@@ -25,7 +25,7 @@ The data used in this project was sourced from the following repositories:
 * The dataset contains 2,126 rows and 22 features extracted from Cardiotocogram (CTG) exams. The target variable is "Fetal_health," and there are 21 other features in the dataset.
 
 ## Repository Map 
-Only important files are mapped and listed for easy reference.
+Main files are mapped with description and listed for easy reference.
 
 📁 `.ipynb_checkpoints`: main machine learning project code files.
    - `Datacleaning-checkpoint.ipynb`: cleaning data for analysis.
