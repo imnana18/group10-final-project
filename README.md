@@ -12,7 +12,7 @@ Not implemented here but ideally, the app would be able to record and save CTG i
 
 The goal of this project is to assist healthcare professionals in the early detection and intervention of prenatal health issues, thereby reducing the risk for both the mother and fetus and improving healthcare outcomes.
 
-## Data Source
+## Data Sources
 
 The data used in this project was sourced from the following repositories:
 
@@ -75,7 +75,7 @@ After cleaning, the data is securely stored in an SQLlite database, taking ethic
 After evaluating 6 algorithms, Gradient Boosting emerged as the top performer with an accuracy of 99.35%.
 Based on this exceptional performance, we recommend utilizing the Gradient Boosting model for predicting fetal health classification.
 
-# Data Visuals
+## Data Visuals
 
 1. **Bar Chart of Top 10 Important Features using Gradient Boosting (GB):**
    - This visualization displays the top 10 important features identified by the Gradient Boosting model. These features are crucial for predicting fetal health classification and provide insights into the underlying patterns in the data.
