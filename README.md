@@ -14,7 +14,7 @@ The goal of this project is to assist healthcare professionals in the early dete
 
 ## Proposal & Presentation
 - The fetal health project proposal can be viewed [here](https://docs.google.com/document/d/1QAVHRgGGt8M9XTlR-L68YzapC7bFD2tHFCQ1xP5CqpA/edit).
-- Our presentation slides can be viewed [here](https://docs.google.com/presentation/d/1l-cSL6YPEBQC3wtwT7DPYixqFDrxySY1/edit#slide=id.g2ca5fad28ff_0_24).
+- Final presentation slides can be viewed [here](https://docs.google.com/presentation/d/1l-cSL6YPEBQC3wtwT7DPYixqFDrxySY1/edit#slide=id.g2ca5fad28ff_0_24).
 
 ## Data Sources
 
