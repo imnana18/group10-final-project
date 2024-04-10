@@ -1,4 +1,4 @@
-# Group 10: Fetal Health Prediction & Classification Modeling 👼🏻
+# Group 10: Fetal Health Prediction & Classification Modeling 👶🏻
 
 The project aims to develop a robust classification model for assessing fetal health based on various fetal parameters obtained through cardiotocography (CTG) data from 2126 babies. The model analyzes various features extracted from CTG recordings to accurately classify the health status of the fetus into one of three categories: "normal," "suspect," or "pathological."
 
