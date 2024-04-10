@@ -70,7 +70,6 @@ After cleaning, the data is securely stored in an SQLlite database, taking ethic
 8. Generate confusion matrix and classification reports to evaluate the performance of each model.
 
 
-
 ## Analysis
 
 After evaluating 6 algorithms, Gradient Boosting emerged as the top performer with an accuracy of 99.35%.
@@ -78,29 +77,46 @@ Based on this exceptional performance, we recommend utilizing the Gradient Boost
 
 # Data Visuals
 
-Fetal_Health_status_count
+1. **Bar Chart of Top 10 Important Features using Gradient Boosting (GB):**
+   - This visualization displays the top 10 important features identified by the Gradient Boosting model. These features are crucial for predicting fetal health classification and provide insights into the underlying patterns in the data.
 
-Model Analysis
+2. **Scatterplot Showing Correlation between Prolonged Deceleration and Fetal Status:**
+   - The scatterplot illustrates the correlation between prolonged deceleration and fetal health status. By examining this relationship, we can gain a better understanding of how prolonged decelerations impact fetal well-being.
 
-Analysis Report
+3. **Histograms of Top 10 Features by Health Status:**
+   - These histograms depict the distribution of the top 10 features based on fetal health status. By visualizing the distribution of these features across different health statuses, we can identify patterns and potential indicators of fetal health.
 
-Top 10 features
 
-Histograms of 5 features
+## Fetal Health App
 
+### Steps involved:
+
+1. Dataset transformed to make index a column called 'Baby ID' to represent CTG data in a mock clinical setting.
    
-## Requirements
+2. Modeled, trained, and tested TensorFlow JS machine learning model to mimic the Random Forest model as best as possible.
+   - Note: Python scikit-learn models found to be incompatible with JavaScript / HTML. TensorFlow JS used as an alternative to resolve the issue.
 
-1.python
+3. JavaScript & HTML code for displaying baby data in mock clinic database with fetal health predictions run through the machine learning model written. Interactive components with HTML for webpage also implemented.
 
-2.pandas
+4. Image drawing compiled online for webpage use.
 
-3.sqllite
+5. HTML and CSS style sheet adjusted for webpage design and visuals.
 
-4.jupyter notebook
+6. Test validated for demo.       
 
-5.sklearn
 
- 
+## Tools
+
+1. Python
+
+2. Pandas
+
+3. Sqllite
+
+4. Jupyter Notebook
+
+5. Sklearn
+
+6. JavaScript / HTML
 
 
