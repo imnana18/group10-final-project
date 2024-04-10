@@ -24,6 +24,35 @@ The data used in this project was sourced from the following repositories:
 
 * The dataset contains 2,126 rows and 22 features extracted from Cardiotocogram (CTG) exams. The target variable is "Fetal_health," and there are 21 other features in the dataset.
 
+## Repository Map 
+Only important files are mapped and listed for easy reference.
+
+📁 `.ipynb_checkpoints`: main machine learning project code files.
+   - `Datacleaning-checkpoint.ipynb`: cleaning data for analysis.
+   - `Fetal_Health_Prediction-checkpoint.ipynb`: training, testing, & visualizations for all models.
+
+📁 `App`: all files relating to fetal health app development.
+   - `my_saved_model`: TensorFlowJS export generated.
+   - `src`: all source codes.
+     * `css`: HTML style formatting.
+     * `data`: fetal health data as JSON.
+     * `image`: baby image displayed on webpage.
+     * `js`: JavaScript code
+     * tfjs_model: TensorFlow JS model.
+   - `index.html`: HTML for running the model.
+
+📁 `Images`: visualizations of machine learning models and data in '.png' format.
+
+📁 `Resources`: fetal health data CSV files.
+
+📁 `models`: machine learning models exported as pickle files.
+
+📁 `notebook`: all other Jupyter Notebook files in relation to...
+   - `app`: notebook files for application
+   - `machine_learning`: notebook files modeling
+
+📁 `python_script`: sqllite database.
+
 ## Data Cleaning
 
 The data cleaning process primarily involved renaming columns, checking null values, analyzing value counts, and modifying data types using Jupyter Notebook with the pandas library.
