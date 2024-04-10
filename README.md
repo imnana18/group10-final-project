@@ -16,11 +16,11 @@ The goal of this project is to assist healthcare professionals in the early dete
 
 The data used in this project was sourced from the following repositories:
 
-* UCI Machine Learning Repository:Cardiotocography Dataset:https://archive.ics.uci.edu/dataset/193/cardiotocography 
+* [UCI Machine Learning Repository:Cardiotocography Dataset](https://archive.ics.uci.edu/dataset/193/cardiotocography) 
 
-* Kaggle: Fetal Health Classification:https://www.kaggle.com/andrewmvd/fetal-health-classification
+* [Kaggle: Fetal Health Classification](https://www.kaggle.com/andrewmvd/fetal-health-classification)
 
-* Additionally, the dataset is referenced in the following publication : https://onlinelibrary.wiley.com/doi/10.1002/1520-6661(200009/10)9:5%3C311::AID-MFM12%3E3.0.CO;2-9
+* Additionally, the dataset is referenced in this [publication](https://onlinelibrary.wiley.com/doi/10.1002/1520-6661(200009/10)9:5%3C311::AID-MFM12%3E3.0.CO;2-9)
 
 * The dataset contains 2,126 rows and 22 features extracted from Cardiotocogram (CTG) exams. The target variable is "Fetal_health," and there are 21 other features in the dataset.
 
