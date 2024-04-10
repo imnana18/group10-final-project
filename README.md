@@ -13,7 +13,7 @@ Not implemented here but ideally, the app would be able to record and save CTG i
 The goal of this project is to assist healthcare professionals in the early detection and intervention of prenatal health issues, thereby reducing the risk for both the mother and fetus and improving healthcare outcomes.
 
 ## Proposal 
-Outline of the project can be viewed [here](https://docs.google.com/document/d/1QAVHRgGGt8M9XTlR-L68YzapC7bFD2tHFCQ1xP5CqpA/edit).
+The project proposal can be viewed [here](https://docs.google.com/document/d/1QAVHRgGGt8M9XTlR-L68YzapC7bFD2tHFCQ1xP5CqpA/edit).
 
 ## Data Sources
 
