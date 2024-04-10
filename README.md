@@ -6,7 +6,7 @@ A fetal health app was also created with the developed model, targeting healthca
 
 Not implemented here but ideally, the app would be able to record and save CTG information per scan during fetal monitoring to the clinic database. Healthcare providers would then be able to search and access CTG scan data with fetal health predictions from the saved patient database. More resources for development and an actual clinical setting would be required to implement this. 
 
-## Goal
+## Purpose
 
 The goal of this project is to assist healthcare professionals in the early detection and intervention of prenatal health issues, thereby reducing the risk for both the mother and fetus and improving healthcare outcomes.
 
