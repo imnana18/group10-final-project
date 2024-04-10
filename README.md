@@ -2,7 +2,11 @@
 
 ## Overview
 
-The project aims to develop a robust classification model for assessing fetal health based on various maternal and fetal parameters obtained through cardiotocography (CTG) data. The model analyzes various features extracted from CTG recordings to accurately classify the health status of the fetus into one of three categories: "normal," "suspect," or "pathological."
+The project aims to develop a robust classification model for assessing fetal health based on various fetal parameters obtained through cardiotocography (CTG) data from 2126 babies. The model analyzes various features extracted from CTG recordings to accurately classify the health status of the fetus into one of three categories: "normal," "suspect," or "pathological."
+
+A fetal health app was also created with the developed model, targeting healthcare providers aiming to assist the fetal monitoring process. The app successfully displays the CTG data for the searched patient (baby ID) and prints out the fetal health indicator based on the scan results. 
+
+Not implemented here but ideally, the app would be able to record and save CTG information per scan during fetal monitoring to the clinic database. Healthcare providers would then be able to search and access CTG scan data with fetal health predictions from the saved patient database. More resources for development and an actual clinical setting would be required to implement this. 
 
 ## Goal
 
@@ -26,7 +30,7 @@ The data cleaning process primarily involved renaming columns, checking null val
 
 ## Data Base
 
-After cleaning, the data is securely stored in an SQLlite database, taking ethical considerations into account
+After cleaning, the data is securely stored in an SQLlite database, taking ethical considerations into account.
 
 
 ## Machine Learning Models:
@@ -46,6 +50,7 @@ After cleaning, the data is securely stored in an SQLlite database, taking ethic
 
 6. Decision Tree
 
+
 ### Steps involved:
 
 1. Check the value counts of the fetal health labels to understand the class distribution.
@@ -63,6 +68,8 @@ After cleaning, the data is securely stored in an SQLlite database, taking ethic
 7. Make predictions using the trained models on the testing set.
 
 8. Generate confusion matrix and classification reports to evaluate the performance of each model.
+
+
 
 ## Analysis
 
