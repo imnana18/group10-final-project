@@ -1,5 +1,4 @@
-# Group 10:
-## Fetal Health Prediction and Classification Modeling
+# Group 10: Fetal Health Prediction & Classification Modeling
 
 ## Overview
 
