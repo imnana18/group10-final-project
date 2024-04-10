@@ -134,7 +134,7 @@ Based on this exceptional performance, we recommend utilizing the Gradient Boost
 6. Test validated for demo.       
 
 
-## Tools
+## Skills 
 
 1. Python
 
