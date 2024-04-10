@@ -2,7 +2,11 @@
 
 ## Overview
 
-The project aims to develop a robust classification model for assessing fetal health based on various maternal and fetal parameters obtained through cardiotocography (CTG) data. The model analyzes various features extracted from CTG recordings to accurately classify the health status of the fetus into one of three categories: "normal," "suspect," or "pathological."
+The project aims to develop a robust classification model for assessing fetal health based on various fetal parameters obtained through cardiotocography (CTG) data from 2126 babies. The model analyzes various features extracted from CTG recordings to accurately classify the health status of the fetus into one of three categories: "normal," "suspect," or "pathological."
+
+A fetal health app was also created with the developed model, targeting healthcare providers aiming to assist the fetal monitoring process. The app successfully displays the CTG data for the searched patient (baby ID) and prints out the fetal health indicator based on the scan results. 
+
+Not implemented here but ideally, the app would be able to record and save CTG information per scan during fetal monitoring to the clinic database. Healthcare providers would then be able to search and access CTG scan data with fetal health predictions from the saved patient database. More resources for development and an actual clinical setting would be required to implement this. 
 
 ## Goal
 
@@ -26,7 +30,7 @@ The data cleaning process primarily involved renaming columns, checking null val
 
 ## Data Base
 
-After cleaning, the data is securely stored in an SQLlite database, taking ethical considerations into account
+After cleaning, the data is securely stored in an SQLlite database, taking ethical considerations into account.
 
 
 ## Machine Learning Models:
@@ -46,6 +50,7 @@ After cleaning, the data is securely stored in an SQLlite database, taking ethic
 
 6. Decision Tree
 
+
 ### Steps involved:
 
 1. Check the value counts of the fetal health labels to understand the class distribution.
@@ -64,6 +69,8 @@ After cleaning, the data is securely stored in an SQLlite database, taking ethic
 
 8. Generate confusion matrix and classification reports to evaluate the performance of each model.
 
+
+
 ## Analysis
 
 After evaluating 6 algorithms, Gradient Boosting emerged as the top performer with an accuracy of 99.35%.
@@ -71,14 +78,16 @@ Based on this exceptional performance, we recommend utilizing the Gradient Boost
 
 # Data Visuals
 
-1. **Bar Chart of Top 10 Important Features using Gradient Boosting (GB):**
-   - This visualization displays the top 10 important features identified by the Gradient Boosting model. These features are crucial for predicting fetal health classification and provide insights into the underlying patterns in the data.
+Fetal_Health_status_count
 
-2. **Scatterplot Showing Correlation between Prolonged Deceleration and Fetal Status:**
-   - The scatterplot illustrates the correlation between prolonged deceleration and fetal health status. By examining this relationship, we can gain a better understanding of how prolonged decelerations impact fetal well-being.
+Model Analysis
 
-3. **Histograms of Top 10 Features by Health Status:**
-   - These histograms depict the distribution of the top 10 features based on fetal health status. By visualizing the distribution of these features across different health statuses, we can identify patterns and potential indicators of fetal health.
+Analysis Report
+
+Top 10 features
+
+Histograms of 5 features
+
    
 ## Requirements
 

@@ -2,7 +2,7 @@ import csv
 import sqlite3
 
  #Connecting to the SQLite database
-connection = sqlite3.connect("fetal_health_CTG_data.db")
+connection = sqlite3.connect("Resources/fetal_health_CTG_data.db")
 
 # Creating a cursor object to execute SQL queries on the database
 cursor = connection.cursor()
