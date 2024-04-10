@@ -38,7 +38,7 @@ Main files are mapped with description and listed for easy reference.
      * `data`: fetal health data as JSON.
      * `image`: baby image displayed on webpage.
      * `js`: JavaScript code
-     * tfjs_model: TensorFlow JS model.
+     * `tfjs_model`: TensorFlow JS model.
    - `index.html`: HTML for running the model.
 
 📁 `Images`: visualizations of machine learning models and data in '.png' format.
