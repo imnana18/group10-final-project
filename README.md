@@ -32,13 +32,13 @@ Main files are mapped with description and listed for easy reference.
    - 📄`Fetal_Health_Prediction-checkpoint.ipynb`: training, testing, & visualizations for all models.
 
 📁 `App`: all files relating to fetal health app development.
-   - 📁`my_saved_model`: TensorFlowJS export generated.
-   - 📁`src`: all source codes.
-     * 📁`css`: HTML style formatting.
-     * 📁`data`: fetal health data as JSON.
-     * 📁`image`: baby image displayed on webpage.
-     * 📁`js`: JavaScript code
-     * 📁`tfjs_model`: TensorFlow JS model.
+   - `my_saved_model`: TensorFlowJS export generated.
+   - `src`: all source codes.
+     * `css`: HTML style formatting.
+     * `data`: fetal health data as JSON.
+     * `image`: baby image displayed on webpage.
+     * `js`: JavaScript code
+     * `tfjs_model`: TensorFlow JS model.
    - 📄`index.html`: HTML for running the model.
 
 📁 `Images`: visualizations of machine learning models and data in '.png' format.
