@@ -13,10 +13,12 @@ let data
 // Data retrieval
 async function dataPull(){
     // define the URL of your JSON file
-    const jsonPath = './src/data/fetal_data.json';
+    const jsonPath = 'App/src/data/fetal_data.json';
   
     // promise Pending
     const dataPromise = d3.json(jsonPath);
+
+    console.log(dataPromise)
   
     // fetch JSON data and console log
     await dataPromise;
@@ -145,72 +147,8 @@ async function model_predict(babyID) {
     
   });
       
-   
-    // data.forEach(async baby =>  {
-    //   // Perform an inference
-    //   const result =  model.predict({
-    //     "fhr_hist_width": tf.tensor([baby['fhr_hist_width']]),
-    //     "prolonged_decelerations": tf.tensor([baby['prolonged_decelerations']]), 
-    //     "mean_st_var": tf.tensor([baby['mean_st_var']]), 
-    //     "fhr_hist_num_peaks": tf.tensor([baby['fhr_hist_num_peaks']]), 
-    //     "abnorm_st_var_perc": tf.tensor([baby['abnorm_st_var_perc']]), 
-    //     "fhr_hist_mean": tf.tensor([baby['fhr_hist_mean']]), 
-    //     "fetal_movement": tf.tensor([baby['fetal_movement']]),  
-    //     "abnorm_lt_var_perc": tf.tensor([baby['abnorm_lt_var_perc']]), 
-    //     "fhr_hist_tendency": tf.tensor([baby['fhr_hist_tendency']]), 
-    //     "uterine_contractions": tf.tensor([baby['uterine_contractions']]), 
-    //     "accelerations": tf.tensor([baby['accelerations']]), 
-    //     "fhr_hist_median": tf.tensor([baby['fhr_hist_median']]), 
-    //     "fhr_hist_max": tf.tensor([baby['fhr_hist_max']]), 
-    //     "fhr_hist_mode": tf.tensor([baby['fhr_hist_mode']]), 
-    //     "fhr_hist_min": tf.tensor([baby['fhr_hist_min']]), 
-    //     "fhr_hist_num_zeroes": tf.tensor([baby['fhr_hist_num_zeroes']]), 
-    //     "fhr_hist_variance": tf.tensor([baby['fhr_hist_variance']]), 
-    //     "light_decelerations": tf.tensor([baby['light_decelerations']]), 
-    //     "severe_decelerations": tf.tensor([baby['severe_decelerations']]), 
-    //     "mean_lt_var": tf.tensor([baby['mean_lt_var']]), 
-    //     "baseline_fhr_bpm": tf.tensor([baby['baseline_fhr_bpm']])
-
-    //   }).then(predictions=> { //, 'detection_classes', 'detection_scores'
-    //     console.log(predictions)
-    //     const data = predictions.dataSync()
-    //     console.log('Predictions: ', data);
-    //     if (result_dict[indexOfMax(data)]){
-    //       result_dict[indexOfMax(data)] += 1
-    //     }
-    //     else{
-    //       result_dict[indexOfMax(data)] = 1
-    //     }
-    //     console.log(result_dict);
-        
-    //   });
-    //   console.log(result)
-      
-    // })
-    
     
 
-    // Load the model.
-    // Tensorflow.js currently needs the absolute path to the model including the full origin.
-  
-
-    
-    
-    // The result is a 6-dimensional vector, the first half may be ignored
-    
-  // const model = await tfdf.loadTFDFModel('http://127.0.0.1:5500/App/tfjs_model/model.json');
-  //     // Perform an inference
-  //     const result = await model.executeAsync({
-  //           "island": tf.tensor(["Dream"]),
-  //           "bill_length_mm": tf.tensor([50.3]),
-  //           "bill_depth_mm": tf.tensor([20]),
-  //           "flipper_length_mm": tf.tensor([197]),
-  //           "body_mass_g": tf.tensor([3300]),
-  //           "sex": tf.tensor(["Female"]),
-  //           "year": tf.tensor([2008], [1], 'int32'),
-  //     });
-  //     // The result is a 6-dimensional vector, the first half may be ignored
-  //     result.print();
 }
 
 // Function to handle search by baby ID
