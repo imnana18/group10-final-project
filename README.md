@@ -123,7 +123,9 @@ Based on this exceptional performance, we recommend utilizing the Gradient Boost
 
 ## Fetal Health App
 
-<img width="882" alt="Screenshot 2024-04-10 at 21 50 30" src="https://github.com/imnana18/group10-final-project/assets/147445115/f7ccf1ca-3e5a-41d5-990e-501fca07e7d6">
+<div style="text-align:center">
+   <img width="882" alt="Screenshot 2024-04-10 at 21 50 30" src="https://github.com/imnana18/group10-final-project/assets/147445115/f7ccf1ca-3e5a-41d5-990e-501fca07e7d6">
+</div>
 
 
 ### Steps involved:
