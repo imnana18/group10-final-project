@@ -123,6 +123,10 @@ Based on this exceptional performance, we recommend utilizing the Gradient Boost
 
 ## Fetal Health App
 
+
+![Screenshot 2024-04-07 at 08 54 10](https://github.com/imnana18/group10-final-project/assets/147445115/41c2df49-0f87-4f51-aa94-7281fc6a6b4b)
+
+
 ### Steps involved:
 
 1. Dataset transformed to make index a column called 'Baby ID' to represent CTG data in a mock clinical setting.
@@ -136,8 +140,13 @@ Based on this exceptional performance, we recommend utilizing the Gradient Boost
 
 5. HTML and CSS style sheet adjusted for webpage design and visuals.
 
-6. Test validated for demo.       
+6. Test validated for demo.
 
+### Deployment:
+
+- For ultimate performance, please download all files from the 📁 `App` folder and the 📄`index.html` to run in local. 
+
+- Application was also deployed in [GitHub pages](https://imnana18.github.io/group10-final-project/), but cannot display the changing predictions bar which will need to be further investigated to debug. Note there are no issues at all when run in local. 
 
 ## Skills 
 
