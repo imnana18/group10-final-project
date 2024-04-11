@@ -43,7 +43,6 @@ Main files are mapped with description and listed for easy reference.
      * `image`: baby image displayed on webpage.
      * `js`: JavaScript code
      * `tfjs_model`: TensorFlow JS model.
-   - 📄`index.html`: HTML for running the model.
 
 📁 `Images`: visualizations of machine learning models and data in '.png' format.
 
@@ -56,6 +55,8 @@ Main files are mapped with description and listed for easy reference.
    - `machine_learning`: notebook files modeling
 
 📁 `python_script`: sqllite database.
+
+📄`index.html`: HTML for running the fetal health app.
 
 ## Data Cleaning
 
